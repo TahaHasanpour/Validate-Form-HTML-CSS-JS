@@ -39,6 +39,22 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-style: 10px;
+    color: #ff0000;
+}
+
+#submit-error{
+    color: #ff0000;
+}
+
+.input-group span i{
+    color: seagreen;
+}
+
 .input-group {
     width: 100%;
     display: flex;
